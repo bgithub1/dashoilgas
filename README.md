@@ -4,14 +4,15 @@
 ![alt text](dashoilgas/dash_oil_gas.png "")
 
 #### To Run:
-To run directly from a jupyter notebook, run all the cells in the notebook  ```dashoilgas/dash_oil_gas.ipynb```
-
-To run as a python .py module from a bash command line, run: 
+To run directly from a jupyter notebook, run all the cells in the notebook:
+```
+dashoilgas/dash_oil_gas.ipynb
+```
+To run as a python .py module from a bash command line, run:     
 ```
 cd dashoilgas/dashoilgas
 python3 dash_oil_gas.py
 ```
-
 
 #### How it works:
 1. Simple css grid layouts
