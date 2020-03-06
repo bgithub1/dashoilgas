@@ -1,0 +1,133 @@
+
+.rpanelnc{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    position: relative;
+    margin-left:10px;
+    margin-right:10px;
+}
+.rpanel{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  position: relative;
+  box-shadow: 1px 1px 1px lightgrey;  
+}
+
+
+#rall_rows{
+    display:grid;
+    grid-template-rows:5fr 65f 45 3r;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    max-width:80vmax;
+}
+
+#rall_cols{
+    display:grid;
+    grid-template-columns:1fr 24fr 1fr;
+}
+
+#r1{
+    display:grid;
+    grid-template-columns: 18fr 64fr 18fr;
+}
+
+#r2{
+    display:grid;
+    grid-template-columns: 35fr 85fr;    
+}
+
+#r2c1{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    position: relative;
+    box-shadow: 1px 1px 1px lightgrey;  
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(5,1fr); 
+    max-height:600px;
+}
+
+#r2c2{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 15fr 84fr 1fr; 
+}
+
+#r2c2r1{
+    display:grid;
+    grid-template-columns:repeat(4,1fr); 
+}
+
+#r3{
+    display:grid;
+    grid-template-columns:49fr 2fr 49fr; 
+    border-radius: 5px;
+}
+
+#rbot{
+    display:grid;
+    grid-template-columns:1fr; 
+    border-radius: 5px;
+}
+
+.plogo{
+    height: 50px;
+    width:150px;
+    justify-content: center;
+    align-content: center;
+    margin-left:40px;
+}
+
+.ogtitle1{
+    margin-bottom: 0px;
+    text-align:center;
+    font-weight:200;
+}
+
+.ogtitle2{
+    margin-top:0px;
+    text-align:center;    
+}
+
+.ogabutton{
+    height:98%;
+    width:98%;
+    padding:0 20px;
+    font-size:15px;
+    border-radius:7%;
+    background-color:transparent;
+}
+
+.adiv{
+    margin-right:40px;
+}
+
+
+.r2_margin{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.d1_margin{
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:5px;
+    overflow:scroll;
+    /* height:150px;
+    min-width:120px; */
+    min-height:10vmax;
+    max-height:15vmax;
+    min-width:13vmax;
+}
+
