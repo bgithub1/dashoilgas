@@ -3,6 +3,11 @@
 
 ![alt text](dashoilgas/dash_oil_gas.png "")
 
+#### To Install:
+1. Create a Virtual environment in Virtualenv or conda
+2. source my_virtual_env/bin/activate
+3. pip3 install -r requirements.txt  --no-cache-dir 
+
 #### To Run:
 To run directly from a jupyter notebook, run all the cells in the notebook:
 ```
