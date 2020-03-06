@@ -1,7 +1,7 @@
 ## Like Oil and Gas
 #### Yet another version of the Dash *New York Oil and Gas* Gallery app, that simplifies the callback boilerplate, and determines the visual layout using only css.
 
-![alt text](dash_oil_gas.png "")
+![alt text](dashoilgas/dash_oil_gas.png "")
 
 #### To Run:
 Run all the cells in this notebook (```dash_oil_gas.ipynb```).
